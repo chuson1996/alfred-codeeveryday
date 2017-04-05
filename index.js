@@ -5,7 +5,7 @@ const API_URL = 'codeeveryday.life/api';
 const compareDesc = require('date-fns/compare_desc');
 
 const sify = JSON.stringify;
-const inputTags = alfy.input.split(', ');
+const inputTags = alfy.input.split(',').map((tag) => tag.trim());
 
 function getResourcesByTag(tag) {
 	return alfy.fetch(`${API_URL}/?query={
