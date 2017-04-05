@@ -1,0 +1,18 @@
+{
+  "name": "alfred-codeeveryday",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "alfy": "^0.6.0",
+    "date-fns": "^1.28.2",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "author": "chuson1996@gmail.com",
+  "license": "ISC"
+}
